@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+body {
+    padding-top: 50%;
+    text-align: center;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000000;
+  color: #ffffff;
+ overflow: hidden;
+}
+
+
+.sub-header {
+    font-family: "Montserrat";
+	color: #eee;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+}
+
+
+.h1 {
+    color:#ffffff;
+	font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 24px; font-style: cursive; font-variant: normal; font-weight: 700; line-height: 26.4px;
+	padding-bottom: 50px; color: #1DB954; text-decoration-style: cursive;}
+
+
+
+  #content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#login-container {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0 auto;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+#login-container .login {
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 70px;
+}
+
+#login-container .login .big-btn {
+    margin: 10px 0 20px 0;
+}
+
+#login-container .login p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+.big-btn {
+    color: #fff;
+    background-color: #7c25f8;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    transition-property: background-color;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.big-btn:hover {
+    background-color: #6207e3;
+}
+
+.sub-header {
+	font-family:  'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+	color: #eee;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 20px;
+}
+
+.page-header {
+	border-bottom: 1px solid #999;
+	margin-top: -15px;
+}
+
+.link {
+	background: #333;
+	box-shadow: 1px 1px 1px 1px #121212;
+}
+
+.link a:hover {
+	border-left: 3px solid #2e7d32 !important;
+	background-color: #222 !important;
+}
+
+.link a:focus {
+	background: #222 !important;
+}
+
+a {
+	font-weight: 600;
+	margin-top: 4px;
+}
+
+
+.navbar-fixed-top {
+	background: rgba(66, 59, 59, 0.5);
+	border: 0 !important;
+	box-shadow: 1px 1px 1px 1px #111;
+    position: flex;
+}
+
+.navbar-toggle {
+	border: 0;
+	margin: 12px;
+}
+
+.navbar-toggle:hover {
+	background: transparent !important;
+}
+
+.navbar-toggle:focus {
+	background: transparent !important;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	padding: 5px;
+	color: #388e3c !important;
+}
+
+::-webkit-input-placeholder {
+	font-family: FontAwesome;
+	padding: 3px;
+	font-size: 16px;
+	text-align: left;
+	color: #121212 !important;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #333;
+	border-radius: 10px;
+	padding-bottom: 50px !important;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2e7d32;
+	border-radius: 10px;
+}
+
+.sidebar {
+	display: none;
+	z-index: 99;
+}
+
+.form-control {
+	opacity: 0.7;
+	height: 25px;
+	margin-top: 7px;
+	border-radius: 20px;
+}
+
+.albums {
+	color: #eee !important;
+	margin-top: 30px !important;
+	font-family: "Montserrat";
+	opacity: 0.9;
+}
+
+.table-inverse {
+	cursor: pointer;
+}
+
+.main {
+	text-align: center;
+	color: #999;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	margin-top: -15px;
+}
+
+.thumbnail {
+	border-radius: 0;
+	border: 0px !important;
+	box-shadow: none !important;
+	background-color: transparent;
+}
+
+.your-music {
+	font-size: 1.2em !important;
+	margin-top: -5px;
+	text-align: center;
+	color: #999;
+}
+
+.playlists {
+	font-size: 1.2em;
+	margin-top: -5px;
+	text-align: center;
+	color: #999;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 54px;
+		bottom: 0;
+		left: 0;
+		display: block;
+		padding: 30px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background: #2c2b2b;
+	}
+}
+
+.nav-sidebar {
+	margin-right: -21px;
+	margin-bottom: 21px;
+	margin-left: -21px;
+}
+
+.nav-sidebar > li > a {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #999 !important;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+	color: #333;
+}
+
+table {
+	color: #d1d1d1;
+}
+
+.img-responsive:hover {
+	--webkit-transform: scale(1.05, 1.07);
+	transition: 0.5s ease-out;
+	cursor: pointer !important;
+	box-shadow: 7px 7px 7px 1px #111;
+}
+
+.jumbotron {
+	background: url("https://scontent.fplu3-1.fna.fbcdn.net/v/t1.0-9/17952605_10154570367027496_4340775452750517092_n.jpg?oh=6bc1a1f70aef5ae2a8e3f9fddabb7848&oe=5A728E9F")
+		no-repeat center center;
+	background-size: cover;
+	height: 250px;
+	margin-top: 10px;
+	border-radius: 0 !important;
+	opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+	.main {
+		padding-right: 40px;
+		padding-left: 20px;
+	}
+	.navbar li {
+		display: none !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-form,
+	.form-control {
+		display: none !important;
+	}
+
+	.albums {
+		margin-top: 60px !important;
+	}
+
+	#navbar {
+		background: rgba(10, 10, 10, 0.5);
+		padding: 20px;
+	}
+}
+
+.footer {
+    
+    color: white;
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,92 @@
+html, body {
+    text-align: top;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #000000;
+  color: #ffffff;
+
+    }
+
+
+.container {
+  align-items: center;
+  padding-bottom: 70;
+}
+h1 {
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+
+
+#login-container {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    margin: 0 auto;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+#login-container .login {
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+    text-align: center;
+    padding: 70px;
+}
+
+#login-container .login .big-btn {
+    margin: 10px 0 20px 0;
+}
+
+#login-container .login p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+.big-btn {
+    color: #fff;
+    background-color: #7c25f8;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    transition-property: background-color;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    cursor: pointer;
+}
+
+.big-btn:hover {
+    background-color: #6207e3;
+}
+
+.button-back {
+  color: #fff;
+  background-color: #7c25f8;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 50px;
+  padding: 18px 48px 16px;
+  transition-property: background-color;
+  transition-duration: .3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  cursor: pointer;
+}
