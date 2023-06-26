@@ -8,3 +8,7 @@ fter authorizing Spotify access to your account information, Moody can generate 
 
 
 It can generate a playlist based on one of the moods available: Depressed, sad, happy, and elated.
+
+
+
+Lo
